@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 150vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+   
+    
+    background-image: url('bg1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.login-form{
+    
+    margin-left:-1500px;
+    
+    background: url("logo1.png");
+    width: 280px;
+    height: 800px;
+    background: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 10px 10px 15px #cbced1,
+        inset -10px -10px 15px #cbced1;
+    
+}
+.logo{
+    background: url("logo1.png");
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    margin: 0  auto;
+    margin-top: 10px;
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+}
+
+.birthday{
+    margin-left: 10px;
+
+}
+.form-mid{
+
+    margin-top: -690px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+   
+  
+    width: 500px;
+    height: 600px;
+    background: #ecf0f3;
+    border-radius: 30px;
+    box-shadow:  10px 10px 15px #cbced1,
+        -10px -10px 15px #cbced1;
+
+}
+.form-right{
+    position: absolute;
+    margin-top: -485px;
+    margin-left: 860px;
+   
+  
+    width: 340px;
+    height: 500px;
+    background: #ecf0f3;
+    border-radius: 30px;
+    box-shadow:  10px 10px 15px #cbced1,
+        -10px -10px 15px #cbced1;
+
+
+}
+
+
+.photo{
+
+    
+    background: url("saieem.png" );
+        height:130px;
+        width:180px;
+        border-radius: 10%;
+        margin-left: 400px;
+        margin-top: -550px;
+     
+        box-shadow: inset 0px 0px 2px #c7c1c1, inset 6px 6px 12px #a7aaaf ;
+    }
+.add{
+        height:50px;
+        width:160px;
+        border-radius: 1%;
+        box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+        margin-left: 210px;
+        margin-top: -4050px;
+        background-color: #249be0;
+        font-size: 20px;
+        color: #ecf0f3;
+    
+    }
+    
+.add:hover{
+    
+        background-color: #ddd;
+        color: rgb(193, 56, 211);
+        
+        
+    }
+    
+.add1{  font-size: 20px;
+        height:50px;
+        width:160px;
+        border-radius: 1%;
+        margin-left: 210px;
+        background-color: #249be0;
+        color: white;
+        font-family: "Colonna MT", Times, serif;
+     
+        box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    
+    
+    }
+.add1:hover {
+        background-color: #ddd;
+        color: rgb(27, 46, 218);
+      }
+.birthday{
+
+        
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        border: none;
+        text-align: center;
+    
+    
+    }
+
+    .country{
+
+
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+        
+    
+    
+    }
+
+    .Religions{
+
+        
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+    
+    
+    }
+    .education{
+
+
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+    
+    
+    }
+    .proprotion{
+
+
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+    
+    
+    }
+    .location{
+
+
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+        margin-bottom: 0px;
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+    
+    
+    }
+
+    .bad-habits{
+
+
+        border-radius: 20px;
+        box-shadow: inset 10px 10px 15px #9617a7,
+        inset -10px -10px 15px rgb(36, 219, 91);
+       
+        display: block;
+        margin: auto;
+        padding: 20px 0px 20px;
+        text-align: center;
+    
+    
+    }
+    .Namepaste{
+        margin-left: 370px;
+        font-size: 20px;
+        height:50px;
+        width:300px;
+        border-radius: 1%;
+        text-align:center;
+       
+        background-color: #249be0;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+     
+        box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+
+
+    
+    }
+
+.Namepaste:hover {
+        background-color: #ddd;
+        color: rgb(27, 46, 218);
+      }
+.Counrtypaste{
+    margin-left: 370px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 3%;
+    text-align:center;
+    padding: 5px 5px 5px 5px;
+   
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+ 
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+
+}
+.Birthdaypaste{
+    margin-left: 370px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+.Educationpaste{
+    margin-left: 370px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+.Proprotionpaste{
+    margin-left: 370px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+   
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+ 
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+.locationpaste{
+    margin-left:590px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+   
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+ 
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: -264px;
+    margin-bottom: -20px;
+}
+.bad-habitspaste{
+    margin-left:590px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+   
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+ 
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+.Religionspaste{
+    margin-left:590px;
+    font-size: 20px;
+    height:50px;
+    width:200px;
+    border-radius: 1%;
+    text-align:center;
+   
+    background-color: #249be0;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+ 
+    box-shadow: inset 0px 0px 2px #5f5f5f, inset 6px 6px 12px #a7aaaf ;
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+.submit{
+    
+    width: 100px;
+    height: 30px;
+    color: rgb(59, 38, 241);
+    
+    background-color: palegreen;
+    display: block;
+    text-align: center;
+    position:center;
+
+
+
+
+}
